@@ -1,0 +1,155 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	
+}
+p{
+	text-align: justify;
+}
+.fa-cloud:hover{
+	background-color: white;
+	color:#17a2b8;
+	 
+}
+
+.first-left p{
+		width: 100%;
+		float: left;
+
+	}
+	.second-left p{
+		width: 80%;
+		float: left;
+
+	}
+	.first-left  i{
+    
+	float: right;
+	display: inline-block;
+	
+	
+	}
+	
+		.second-left i{
+ 
+	float: right;
+	display: inline-block;
+}
+
+
+
+
+	.first-left  :hover{
+     
+		background-color: #17a2b8;
+		color: white;
+
+
+	}
+.first-right :hover{
+     
+		background-color: #17a2b8;
+		color: white;
+
+	}
+.fa-cloud:hover{
+	background-color: white;
+	color:#17a2b8;
+	 
+}
+
+@media screen and (max-width:700px){
+	main{
+		/*box-sizing: border-box;*/
+		display: block;
+		float: none;
+        margin: auto;
+		text-align: justify;
+
+	}
+	img{
+		width: 100%;
+		
+	}
+/*start first left */
+	.first-right{
+
+		margin-top: 20px;
+		width: 103%;
+	}
+	
+
+
+/*start card 2*/
+.CMS-Installation p{
+text-align: center;
+}
+
+
+
+/*app-development*/
+
+
+.app-development{
+	margin-top: 20px;
+	margin-left: 22px;
+
+
+}
+
+/*Graphics-Design*/
+.Graphics-Design{
+	margin-top: 20px;
+	margin-left: 22px;	
+}
+}
+
+div ul li a{
+ font-size: 19px;
+ 
+ 
+}
+.text-info {
+    color: #40b6cf !important;
+}
+ .bg-info{
+	width: 400px;
+	height:auto;
+	border:70%;
+}
+
+.fa-cloud {
+	
+font-size: 20px;
+	width: 70px;
+	height: 70px;
+
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	background-color: #17a2b8;
+}
+/*start card2*/
+.card2{
+	background-color: #033E42;
+	color: white;
+}
+/*start image2*/
+.image2 i{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #17a2b8;
+
+	padding-top:15px;
+	margin: 10px;
+
+
+}

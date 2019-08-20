@@ -1,0 +1,339 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+html,body{
+	
+	
+	width:100%;
+	height:100%;
+	
+}
+nav{
+	background-color:black;
+	height:auto;
+	color:white;
+	
+	
+}
+
+nav ul {
+	
+	margin:0px;
+	padding:0px;
+}
+nav ul li{
+	
+	display:inline-block;
+	
+}
+nav ul li i{
+	
+	padding:15px;
+	
+}
+nav ul .lasti{
+	float:right;
+}
+nav ul li i:link,nav ul li i:visited
+{
+	color:white;
+	background-color:black;
+	
+}
+nav ul li i:hover,nav ul li i:active
+{
+	
+	background-color:lightgray;
+	color:black;
+}
+
+#textdiv{
+	
+	background-color:white;
+	text-align:center;
+	padding:60px 0px;
+	font-family: 'Oswald', sans-serif;
+	font-size:25px;
+	
+}
+#textdiv h1{
+	
+	
+}
+#textdiv p{
+	
+	font-size:16px;
+	padding-top:15px;
+}
+
+#textdiv p span{
+	
+	background-color:black;
+	color:white;
+	padding:3px 8px; 
+}
+header{
+	
+	background-image:url('../images/jane.jpg')
+}
+main{
+	
+	background-color:#f1f1f1;
+	height:auto;
+	overflow:auto;
+}
+
+main section{
+	
+	width:60%;
+	float:left;
+	padding:20px 40px;
+	height:auto;
+	overflow:auto;
+}
+main section article{
+	background-color:white;
+	padding:30px;
+	margin-bottom:40px;
+}
+
+main section article .articleheader{
+	
+	text-align:center;
+	padding:20px 0px;
+}
+
+main section article .articleheader span{
+	color:gray;
+}
+
+main section article img{
+	width:100%;
+	
+}
+
+
+main section article .articlecontent{
+	padding:30px 0px;
+	
+}
+
+main section article .articlecontent p{
+	padding-bottom:20px;
+	font-size:18px;
+	text-align:justify;
+}
+
+main section article .articlecontent p span{
+	font-weight:bold;
+}
+main section article  .but button{
+	
+	border:none;
+	padding:10px 20px;
+	
+}
+main section article  .but .leftbut{
+	
+}
+main section article  .but .rightbut{
+	float:right;
+}
+main aside{
+	width:40%;
+	float:right;
+	padding:20px 40px;
+	
+}
+aside .girl{
+	
+	
+	
+	
+}
+aside .girl img{
+	width:100%;
+	
+}
+aside .girl h3,aside .girl p{
+	
+	background-color:black;
+	text-align:justify;
+	color:white;
+	padding:20px 10px;
+	margin-top:-10px;
+	
+}
+
+aside .ullist{
+	margin-top:30px;
+	
+	
+}
+aside .ullist h1{
+	
+	padding:20px;
+	text-align:center;
+	background-color:black;
+	color:white;
+	
+}
+aside .ullist ul{
+	
+	list-style-type:none;
+	background-color:white;
+}
+
+aside .ullist ul li{
+
+	padding:15px;
+	height:auto;
+	overflow:auto;
+}
+
+aside .ullist ul li:hover{
+	
+	
+	background-color:lightgray;
+} 
+
+aside .ullist ul li .left{
+	
+	
+	float:left;
+	width:30%;
+
+	
+	
+}
+aside .ullist ul li .left img{
+	width:100%;
+	
+}
+aside .ullist ul li .right{
+	
+	
+	
+	float:right;
+	width:70%;
+	padding:10px;
+	
+}
+
+#clear{
+	content:" ";
+	clear:both;
+}
+footer{
+	
+	background-color:#616161;
+	padding:40px;
+}
+footer .link{
+	display:inline-block;
+	padding:20px 40px;
+	color:white;
+	background-color:black;
+	font-weight:bold;
+	text-decoration:none;
+	
+	
+}
+footer .link:hover{
+	background-color:lightgray;
+	color:black;
+}
+footer p{
+	
+	padding-top:30px;
+	font-size:18px;
+	color:white;
+}
+footer p a{
+	color:white;
+}
+
+
+@media screen and (max-width: 700px)
+{
+	
+	
+	main section {
+		
+		width:100%;
+		float:none;
+		display:block;
+		padding:0px;
+	} 
+	
+	
+	main aside{
+		
+		width:100%;
+		float:none;
+		display:block;
+		padding:0px;
+	}
+	
+	
+}
+#parent{
+	position: relative;
+}
+
+#parent  h2{
+	position: absolute;
+    bottom:290px;
+	left: 50px;
+	color: white;
+	font-family: 'Oswald';
+	/*z-index: 2;*/
+
+}
+#parent  h1{
+	position: absolute;
+    bottom:220px;
+	left: 50px;
+	color: white;
+		font-family: 'Oswald';
+	/*z-index: 5;*/
+
+}
+#parent  a{
+	text-decoration: none;
+	background-color: gray;
+	padding: 15px;
+	position: absolute;
+    bottom:100px;
+	left: 50px;
+	color: white;
+		font-family: 'Oswald';
+
+
+}
+#advertise{
+	width: 95%;margin:20px
+}
+#advertise nav{
+	width: auto;
+	padding:20px;
+	background-color: black;
+	 color:white;
+	 font-family:'oswald';
+}
+#center7{
+	width:100%;
+	 height:250px;
+	 margin-top: 20px;
+	 background-color: white;
+	 border:1px solid white;
+	
+}
+#center7 p{
+	text-align:center;
+	font-family: 'oswald';
+	font-size: 20px;
+	padding-top: 15%
+}
